@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <label for="uname">Enter Your First Name</label> 
+        <br><br>
+        <input type="text" name="username" placeholder="Enter Password" id="uname" required>
+        <br><br>
+        <label for="upass">Password</label><br><br>
+        <input type="password" id="upass" name="password">
+        <br><br>
+        <label for="uage">Age</label><br><br>
+        <input type="number" name="age" value="" id="uage" step="2">
+        <br><br>
+        <label for="volrange">Volume</label> <br><br>
+        <input type="range" id="volrange" name="volume" min="0" max="100" step="1">
+        <br><br>
+        <label for="favmeal"> Sushi</label>
+        <input type="checkbox" name="meal" value="sushi" id="favmeal">
+        <br>
+        <label for="favmeal"> Sushi</label>
+        <input type="checkbox" name="meal" value="sushi" id="favmeal">
+        <br>
+        <label for="favmeal"> Sushi</label>
+        <input type="checkbox" name="meal" value="sushi" id="favmeal">
+        <br>
+        <label for="favmeal"> Sushi</label>
+        <input type="checkbox" name="meal" value="sushi" id="favmeal">
+        <br><br><br>
+        <label>Gender</label>&nbsp;&nbsp;
+        <label for="mas">Male</label>
+        <input type="radio" name="gender" value="male" id="mas">
+        <label for="fem">Female</label>
+        <input type="radio" name="gender" value="female" id="fem">
+        <br><br><br>
+        <select name="favcountry" id="country">
+            <option value="pakistan">Pakistan</option>
+            <option value="china" selected>China</option>
+            <option value="tunisia">Tunisia</option>
+        </select>
+        <br><br>
+        <label for="city"></label>
+        <input type="text" list="cities" name="city" id="city">
+        <datalist id="cities">
+            <option value="marsa"></option>
+            <option value="khalil"></option>
+            <option value="marwan"></option>
+            <option value="lahore"></option>
+        </datalist>
+        <br><br>
+        <br><br>
+        <label for="intro"></label>
+        <textarea name="description" id="intro" cols="30" rows="10" placeholder="tell us about yourself"></textarea>
+
+    </form>
+
+</body>
+</html>
